@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
-.container {
-  background-color: blue;
-  margin: auto;
-  text-align: center;
 
+.container {
+  margin: auto;
+  padding: 1.25rem;
 }
+
+/* 
+colors {
+  body: "#1D1E28",
+    light: "#fff",
+} */
