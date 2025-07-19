@@ -3,6 +3,8 @@ import WeatherCondition from "./WeatherCondition";
 import WeatherHeadline from "./WeatherHeadLine";
 
 export default function WeatherBoard() {
+
+
     return (
         <div className="container">
             <div
