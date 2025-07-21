@@ -13,7 +13,6 @@ const FavouriteProvider = ({ children }) => {
                 longitude: longitude
             }
         ])
-        console.log(favouriteValue[0])
     }
     const removeFromFavourite = (location) => {
         const restValue = favouriteValue.filter((item) => item.location !== location)

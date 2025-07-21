@@ -12,7 +12,7 @@ import ThunderIcon from "../../assets/thunder.svg";
 export default function WeatherHeadline() {
     const { weatherData } = useContext(WeatherContext)
     const { location, temperature, time, climate } = weatherData
-    console.log(climate)
+
     function getWeatherIcon(climate) {
         switch (climate) {
             case "Rain":
